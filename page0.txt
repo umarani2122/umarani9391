@@ -1,1 +1,31 @@
 my name is uma
+######################################
+1.configure git in vs code
+
+git config --global user.name"umarani"
+git config --global user.email"umaranikanchani2122"
+
+2.clone as existing github repo ( if already exists)
+git clone https://github.com/umarani2122/umarani9391/blob/main/page0.txt
+cd your-repo-name
+code.
+
+3.initialize a new repo
+if u  r strating fresh
+cd path/to/your/projects
+git init
+git remote add origin (git website paste it 
+
+4 .make changes amd stage them
+ edit your files in your vs code
+ save the changes
+ use terminal r control tab
+   git add.
+   git commit -m "your meaningful  commit meassage"
+
+ 5.push to git hub
+ git push -u origin main
+
+ 6.pull 
+ git pull origin main 
+     
